@@ -1,0 +1,979 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="soru1Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru2Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru3Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru4Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru5Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru6Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru8Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru9Secenek">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="soru10Secenek">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[0, 0, 0, 0]"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel1.background"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true" thickness="3">
+              <Property name="color" resourceKey="jPanel1.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel1MousePressed"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jDesktopPane1" alignment="1" pref="758" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="187" max="32767" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="tarihAlani" min="-2" pref="153" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="akrabaTelAlani" pref="345" max="32767" attributes="0"/>
+                                      <Component id="medeniDurumAlani" alignment="0" pref="345" max="32767" attributes="0"/>
+                                      <Component id="isimAlani" alignment="0" pref="345" max="32767" attributes="1"/>
+                                      <Component id="adresAlani" pref="345" max="32767" attributes="1"/>
+                                      <Component id="telNoAlani" alignment="0" pref="345" max="32767" attributes="1"/>
+                                      <Component id="dogumtarihiAlani" alignment="0" pref="345" max="32767" attributes="1"/>
+                                      <Group type="102" alignment="1" attributes="1">
+                                          <Component id="kiloAlani" pref="122" max="32767" attributes="1"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="boyAlani" min="-2" pref="155" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="akrabaAdresAlani" alignment="0" pref="345" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="213" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Component id="jSeparator1" alignment="0" pref="758" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Component id="kalpteUfurum" alignment="1" min="-2" pref="110" max="-2" attributes="0"/>
+                          <Component id="kalpProblemi" alignment="1" min="-2" pref="110" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="romatizma" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="sinusProblemi" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="sarilik" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="hepatit" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                      <Component id="diyabet" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="tuberkiloz" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="artirit" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="epilepsi" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="astim" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="anemi" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="357" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Component id="soru10evet" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="soru10hayır" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="soru10" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Component id="soru9evet" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="soru9hayır" min="-2" pref="70" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="soru9" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Component id="soru8evet" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="soru8hayır" min="-2" pref="70" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="soru8" alignment="0" min="-2" pref="290" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="443" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tarihAlani" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="isimAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="adresAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="telNoAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dogumtarihiAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kiloAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="boyAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="medeniDurumAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="akrabaTelAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="akrabaAdresAlani" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                  <Component id="jDesktopPane1" min="-2" pref="363" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kalpProblemi" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sarilik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="anemi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kalpteUfurum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="hepatit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="astim" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="romatizma" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="diyabet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="epilepsi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="sinusProblemi" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tuberkiloz" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="artirit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="soru8" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="soru8evet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="soru8hayır" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="soru9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="soru9evet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="soru9hayır" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="soru10" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="soru10evet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="soru10hayır" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="70" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel1.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="jLabel1.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tarihAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="tarihAlani.text"/>
+            <Property name="name" type="java.lang.String" value="tarihAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel7.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel7" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel9.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel9" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel10.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel10" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JDesktopPane" name="jDesktopPane1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jDesktopPane1.background"/>
+            <Property name="name" type="java.lang.String" value="jDesktopPane1" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jLabel11.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="jLabel1.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="jLabel11.text"/>
+                <Property name="name" type="java.lang.String" value="jLabel11" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="0" width="300" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="soru1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru1.text"/>
+                <Property name="name" type="java.lang.String" value="soru1" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="40" width="270" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru1evet">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru1Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru1evet.text"/>
+                <Property name="name" type="java.lang.String" value="soru1evet" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="30" y="60" width="60" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru1hay&#x131;r">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru1Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru1hay&#x131;r.text"/>
+                <Property name="name" type="java.lang.String" value="soru1hay&#x131;r" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="soru1hay&#x131;rActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="130" y="60" width="60" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="soru2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru2.text"/>
+                <Property name="name" type="java.lang.String" value="soru2" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="90" width="320" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru2evet">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru2Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru2evet.text"/>
+                <Property name="name" type="java.lang.String" value="soru2evet" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="30" y="110" width="70" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru2hay&#x131;r">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru2Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru2hay&#x131;r.text"/>
+                <Property name="name" type="java.lang.String" value="soru2hay&#x131;r" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="130" y="110" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="soru3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru3.text"/>
+                <Property name="name" type="java.lang.String" value="soru3" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="140" width="310" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru3evet">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru3Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru3evet.text"/>
+                <Property name="name" type="java.lang.String" value="soru3evet" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="30" y="160" width="60" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru3hay&#x131;r">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru3Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru3hay&#x131;r.text"/>
+                <Property name="name" type="java.lang.String" value="soru3hay&#x131;r" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="130" y="160" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="soru4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru4.text"/>
+                <Property name="name" type="java.lang.String" value="soru4" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="190" width="400" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru4evet">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru4Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru4evet.text"/>
+                <Property name="name" type="java.lang.String" value="soru4evet" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="30" y="210" width="60" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru4hay&#x131;r">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru4Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru4hay&#x131;r.text"/>
+                <Property name="name" type="java.lang.String" value="soru4hay&#x131;r" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="130" y="210" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="soru5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru5.text"/>
+                <Property name="name" type="java.lang.String" value="soru5" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="240" width="290" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru5evet">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru5Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru5evet.text"/>
+                <Property name="name" type="java.lang.String" value="soru5evet" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="30" y="260" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru5hay&#x131;r">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru5Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="soru5hay&#x131;r.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru5hay&#x131;r.text"/>
+                <Property name="name" type="java.lang.String" value="soru5hay&#x131;r" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="130" y="260" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="soru6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="soru6.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru6.text"/>
+                <Property name="name" type="java.lang.String" value="soru6" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="290" width="220" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru6evet">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru6Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru6evet.text"/>
+                <Property name="name" type="java.lang.String" value="soru6evet" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="30" y="310" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="soru6hay&#x131;r">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="soru6Secenek"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="soru6hay&#x131;r.text"/>
+                <Property name="name" type="java.lang.String" value="soru6hay&#x131;r" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="130" y="310" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="0" y="-338" width="760" height="810" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+                    <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Component id="soru7" min="-2" pref="320" max="-2" attributes="0"/>
+                              <EmptySpace pref="419" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="678" max="32767" attributes="0"/>
+                              <Component id="soru7" min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="soru7">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="soru7.text"/>
+                        <Property name="name" type="java.lang.String" value="soru7" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="isimAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="isimAlani.text"/>
+            <Property name="name" type="java.lang.String" value="isimAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="adresAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="adresAlani.text"/>
+            <Property name="name" type="java.lang.String" value="adresAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="telNoAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="telNoAlani.text"/>
+            <Property name="name" type="java.lang.String" value="telNoAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dogumtarihiAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="dogumtarihiAlani.text"/>
+            <Property name="name" type="java.lang.String" value="dogumtarihiAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="kiloAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="kiloAlani.text"/>
+            <Property name="name" type="java.lang.String" value="kiloAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel8.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel8.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel8" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="boyAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="boyAlani.text"/>
+            <Property name="name" type="java.lang.String" value="boyAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="medeniDurumAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="medeniDurumAlani.text"/>
+            <Property name="name" type="java.lang.String" value="medeniDurumAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="akrabaTelAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="akrabaTelAlani.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="akrabaTelAlani.text"/>
+            <Property name="name" type="java.lang.String" value="akrabaTelAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel22">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel22.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel22.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel22" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="akrabaAdresAlani">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextField9.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="akrabaAdresAlani.text"/>
+            <Property name="name" type="java.lang.String" value="akrabaAdresAlani" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="alignmentX" type="float" value="2.5"/>
+            <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="kalpProblemi">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="kalpProblemi.text"/>
+            <Property name="name" type="java.lang.String" value="kalpProblemi" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="sarilik">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="sarilik.text"/>
+            <Property name="name" type="java.lang.String" value="sarilik" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="anemi">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="anemi.text"/>
+            <Property name="name" type="java.lang.String" value="anemi" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="kalpteUfurum">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="kalpteUfurum.text"/>
+            <Property name="name" type="java.lang.String" value="kalpteUfurum" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="romatizma">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="romatizma.text"/>
+            <Property name="name" type="java.lang.String" value="romatizma" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="sinusProblemi">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="sinusProblemi.text"/>
+            <Property name="name" type="java.lang.String" value="sinusProblemi" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="hepatit">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="hepatit.text"/>
+            <Property name="name" type="java.lang.String" value="hepatit" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="diyabet">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="diyabet.text"/>
+            <Property name="name" type="java.lang.String" value="diyabet" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="tuberkiloz">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="tuberkiloz.text"/>
+            <Property name="name" type="java.lang.String" value="tuberkiloz" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="astim">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="astim.text"/>
+            <Property name="name" type="java.lang.String" value="astim" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="epilepsi">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="epilepsi.text"/>
+            <Property name="name" type="java.lang.String" value="epilepsi" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="artirit">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="diyabet.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="artirit.text"/>
+            <Property name="name" type="java.lang.String" value="artirit" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="soru8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru8.text"/>
+            <Property name="name" type="java.lang.String" value="soru8" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="soru8evet">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="soru8Secenek"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru8evet.text"/>
+            <Property name="name" type="java.lang.String" value="soru8evet" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="soru8hay&#x131;r">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="soru8Secenek"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru8hay&#x131;r.text"/>
+            <Property name="name" type="java.lang.String" value="soru8hay&#x131;r" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="soru9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru9.text"/>
+            <Property name="name" type="java.lang.String" value="soru9" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="soru9evet">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="soru9Secenek"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru9evet.text"/>
+            <Property name="name" type="java.lang.String" value="soru9evet" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="soru9hay&#x131;r">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="soru9Secenek"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru9hay&#x131;r.text"/>
+            <Property name="name" type="java.lang.String" value="soru9hay&#x131;r" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="soru10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel17.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru10.text"/>
+            <Property name="name" type="java.lang.String" value="soru10" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="soru10evet">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="soru10Secenek"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru10evet.text"/>
+            <Property name="name" type="java.lang.String" value="soru10evet" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="soru10hay&#x131;r">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jRadioButton4.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="soru10Secenek"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="jRadioButton10.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="soru10hay&#x131;r.text"/>
+            <Property name="name" type="java.lang.String" value="soru10hay&#x131;r" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
